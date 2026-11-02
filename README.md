@@ -1,7 +1,6 @@
 # Apex Performance Auto Group - Website Repository
 
 ## Project Deployment
-- **GitHub Repository:** [Insert Your GitHub Repo URL Here]
 - **Live Netlify/GitHub Pages Deployment:** https://apex-performance-auto.netlify.app/
 
 ---
