@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enquire about custom ECU tuning packages, performance parts availability, or sponsorship opportunities with Apex Performance Auto Group.">
+    <meta name="keywords" content="Apex enquiry, tune booking, parts availability, sponsorship enquiry">
+    <title>Apex Performance Auto Group | Service & Parts Enquiry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Orbitron:wght@600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Apex Performance Auto Group</h1>
+        <nav aria-label="Main Navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services & Tune</a>
+            <a href="shop.html">Parts Store</a>
+            <a href="enquiry.html">Enquiries</a>
+            <a href="blog.html">Technical Blog</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Service, Parts & Sponsorship Enquiry</h2>
+            <p>Submit an enquiry to receive automated cost and availability estimation processing.</p>
+            
+            <form id="enquiry-form">
+                <div>
+                    <label for="enquiry-name">Full Name:</label>
+                    <input type="text" id="enquiry-name" name="enquiry-name" required>
+                </div>
+                <div>
+                    <label for="enquiry-email">Email Address:</label>
+                    <input type="email" id="enquiry-email" name="enquiry-email" required>
+                </div>
+                <div>
+                    <label for="enquiry-service">Category of Enquiry:</label>
+                    <select id="enquiry-service" name="enquiry-service">
+                        <option value="Workshop Service & Diagnostics">Workshop Service & Diagnostics</option>
+                        <option value="Custom ECU Tune">Custom ECU Tune</option>
+                        <option value="Aftermarket Parts Order">Aftermarket Parts Order</option>
+                        <option value="Sponsorship & Partnership">Sponsorship & Partnership</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="enquiry-details">Enquiry Details:</label>
+                    <textarea id="enquiry-details" name="enquiry-details" rows="4" placeholder="Provide vehicle details or specific parts required..." required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Process Enquiry</button>
+            </form>
+
+            <div id="enquiry-response" style="margin-top: 20px; display: none;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Apex Performance Auto Group. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
